@@ -1,0 +1,79 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0505"/>
+      <stop offset="55%" stop-color="#100303"/>
+      <stop offset="100%" stop-color="#050101"/>
+    </linearGradient>
+    <radialGradient id="portalGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff5a1f" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#b3130a" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fireText" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffcf6b"/>
+      <stop offset="45%" stop-color="#ff7a1a"/>
+      <stop offset="100%" stop-color="#c31111"/>
+    </linearGradient>
+    <radialGradient id="emberGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb347" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffb347" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="floorFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.65"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
+
+  <ellipse cx="900" cy="180" rx="320" ry="290" fill="url(#portalGlow)"/>
+
+  <g stroke="#ff6a2a" stroke-width="1.5" fill="none" opacity="0.55">
+    <circle cx="900" cy="180" r="130"/>
+    <circle cx="900" cy="180" r="98"/>
+    <circle cx="900" cy="180" r="66"/>
+  </g>
+
+  <polygon points="900,80 936,205 830,132 970,132 864,205"
+           stroke="#ffb347" stroke-width="1.4" fill="none" opacity="0.6"/>
+
+  <g stroke="#7a0f0f" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M900 50 L905 95 L880 130"/>
+    <path d="M1030 180 L985 190 L960 175"/>
+    <path d="M900 310 L895 260 L925 230"/>
+    <path d="M770 180 L815 170 L840 190"/>
+  </g>
+
+  <g fill="#ff9a3d" opacity="0.85">
+    <circle cx="740" cy="90" r="3" fill="url(#emberGlow)"/>
+    <circle cx="1060" cy="120" r="2.5" fill="url(#emberGlow)"/>
+    <circle cx="1005" cy="290" r="3" fill="url(#emberGlow)"/>
+    <circle cx="820" cy="300" r="2" fill="url(#emberGlow)"/>
+    <circle cx="1090" cy="250" r="2.5" fill="url(#emberGlow)"/>
+    <circle cx="965" cy="60" r="2" fill="url(#emberGlow)"/>
+  </g>
+
+  <g stroke="#4a0a0a" stroke-width="1" opacity="0.5">
+    <path d="M0 300 L120 292 L240 305 L360 296 L480 302 L600 294"/>
+    <path d="M20 320 L140 310 L260 322 L380 312"/>
+  </g>
+
+  <rect x="0" y="300" width="1200" height="60" fill="url(#floorFade)"/>
+
+  <path d="M40 250 L90 240 L60 300 L100 260 L70 320" stroke="#8a1111" stroke-width="2" fill="none" opacity="0.4"/>
+
+  <text x="60" y="165" font-family="'Segoe UI', Arial, sans-serif" font-size="82" font-weight="700"
+        fill="url(#fireText)" textLength="640" lengthAdjust="spacingAndGlyphs">
+    Diablo 4
+  </text>
+  <text x="60" y="245" font-family="'Segoe UI', Arial, sans-serif" font-size="82" font-weight="700"
+        fill="url(#fireText)" textLength="500" lengthAdjust="spacingAndGlyphs">
+    Exploit
+  </text>
+
+  <text x="60" y="292" font-family="'Segoe UI', Arial, sans-serif" font-size="23" fill="#e8b48a"
+        textLength="760" lengthAdjust="spacingAndGlyphs">
+    Enables pluggable exploit modules for the Diablo 4 ecosystem
+  </text>
+</svg>
